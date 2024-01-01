@@ -1,0 +1,1 @@
+/Users/takashi/Sources/Projects/the_rust_programming_language/ownership_and_functions/target/debug/ownership_and_functions: /Users/takashi/Sources/Projects/the_rust_programming_language/ownership_and_functions/src/main.rs
