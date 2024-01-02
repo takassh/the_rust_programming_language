@@ -1,0 +1,1 @@
+/Users/takashi/Sources/Projects/the_rust_programming_language/defining_methods/target/debug/defining_methods: /Users/takashi/Sources/Projects/the_rust_programming_language/defining_methods/src/main.rs
