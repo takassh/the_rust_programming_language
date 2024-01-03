@@ -19,3 +19,12 @@ Because the document is really helpful to understand programming, not only Rust 
 
 ## What is the difference between array and collection? [G]
 - Array and collection can contain multiple values, but the way to store data is different. Array stores data on the stack while collection stores data on the heap. Collection can grow or shrink at runtime.
+
+## Why doesn't Rust allow us to index String like s[0]? [R]
+- Because there is a difference between how human and computer deal with String. For example, let's say encoded UTF-8 "Hola", as a human the first letter should be H as same as a computer. Because "Hola"'s each character is stored using 1 byte per letter. However, in "Здравствуйте" case, as a human the first letter shoud be "З", but as a computer it's represented differently because Hindi is stored using 2 bytes per letter. The computer would return "208". The answer, then, is to prevent unexpected result and causing errors that might not be discovered immediately.
+
+## When do we use panic and when not? [R]
+- It depends on code calling a function which can have errors. If the code can recover from error, you can use `Result` and if not, you can use `panic`. For example, when you try to access an array past the end, `panic` should be called because it's insecure and it's considered impossible to recover unless you use `get` method. For other cases, when you create examples, prototype code and tests, you can use panic as a placeholder.
+
+## Why doesn't Generic type affect runtime speed? [R]
+- Because at compile Rust monomorphizes all generics, which means the compiler proceeds the reverse process to we make generics components. The compiler generate all components per each type.

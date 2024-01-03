@@ -1,0 +1,5 @@
+/Users/takashi/Sources/Projects/the_rust_programming_language/life_time_annotations_in_function_signatures/target/debug/deps/life_time_annotations_in_function_signatures-08afd5873f2c7b59: src/main.rs
+
+/Users/takashi/Sources/Projects/the_rust_programming_language/life_time_annotations_in_function_signatures/target/debug/deps/life_time_annotations_in_function_signatures-08afd5873f2c7b59.d: src/main.rs
+
+src/main.rs:
