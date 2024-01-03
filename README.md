@@ -16,3 +16,6 @@ Because the document is really helpful to understand programming, not only Rust 
 
 ## Why do we specify the parent of a function and specify the full path of a struct? [R]
 - When we use function, we care about the place in which it's built, and this is idiomatic. When we use struct, there is no strong reason to use the full path.
+
+## What is the difference between array and collection? [G]
+- Array and collection can contain multiple values, but the way to store data is different. Array stores data on the stack while collection stores data on the heap. Collection can grow or shrink at runtime.
