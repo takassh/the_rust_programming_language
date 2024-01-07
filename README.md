@@ -28,3 +28,6 @@ Because the document is really helpful to understand programming, not only Rust 
 
 ## Why doesn't Generic type affect runtime speed? [R]
 - Because at compile Rust monomorphizes all generics, which means the compiler proceeds the reverse process to we make generics components. The compiler generate all components per each type.
+
+## What is the difference among `FnOnce`, `FnMut`, `Fn`? [R]
+- `FnOnce` is the most basic closure which is used or inherited every closure. You can use `FnOnce` when you want to `move` captured values only once. `FnMut` implements `FnOnce` and you can use it when your code don't satisfy `FnOnce` and you want to mutate captured values. Lastly, `Fn` implements `FnMut` and you can use it when your code don't satisfy `FnMut`.
