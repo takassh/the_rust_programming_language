@@ -32,4 +32,5 @@ Because the document is really helpful to understand programming, not only Rust 
 ## What is the difference among `FnOnce`, `FnMut`, `Fn`? [R]
 - `FnOnce` is the most basic closure which is used or inherited every closure. You can use `FnOnce` when you want to `move` captured values only once. `FnMut` implements `FnOnce` and you can use it when your code don't satisfy `FnOnce` and you want to mutate captured values. Lastly, `Fn` implements `FnMut` and you can use it when your code don't satisfy `FnMut`.
 
-## 
+## When to use rc and refcell? [R]
+- `rc` are useful when you want to share ownership and don't want to make `let` for the first owner. In other words, unless every ownership is dropped, the value stays on the memory: called memory leak. `refcell` is usually used when to share a value using `rc` and want to change the value.
