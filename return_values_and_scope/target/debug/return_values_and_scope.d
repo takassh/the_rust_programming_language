@@ -1,1 +1,0 @@
-/Users/takashi/Sources/Projects/the_rust_programming_language/return_values_and_scope/target/debug/return_values_and_scope: /Users/takashi/Sources/Projects/the_rust_programming_language/return_values_and_scope/src/main.rs

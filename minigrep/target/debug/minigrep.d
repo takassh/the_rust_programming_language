@@ -1,1 +1,0 @@
-/Users/takashi/Sources/Projects/the_rust_programming_language/minigrep/target/debug/minigrep: /Users/takashi/Sources/Projects/the_rust_programming_language/minigrep/src/lib.rs /Users/takashi/Sources/Projects/the_rust_programming_language/minigrep/src/main.rs
